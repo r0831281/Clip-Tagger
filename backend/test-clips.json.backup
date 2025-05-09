@@ -1,0 +1,223 @@
+[
+    {
+        "id": "1746812086084-bfly7wkvq",
+        "filename": "1746812086074.wav",
+        "originalName": "papier.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746812086074.wav",
+        "tags": [
+            "drums"
+        ],
+        "key": "A major",
+        "uploadDate": "2025-05-09T17:34:46.084Z"
+    },
+    {
+        "id": "1746812086084-zrja1q6d6",
+        "filename": "1746812086082.wav",
+        "originalName": "Kick2a.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746812086082.wav",
+        "tags": [
+            "vocals",
+            "instrumental",
+            "drums"
+        ],
+        "key": "F minor",
+        "uploadDate": "2025-05-09T17:34:46.084Z"
+    },
+    {
+        "id": "1746812117967-75cvzog9q",
+        "filename": "1746812117940.wav",
+        "originalName": "MTVR2_146_vocal_wet_blem_C#m.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746812117940.wav",
+        "tags": [
+            "instrumental"
+        ],
+        "key": "G minor",
+        "uploadDate": "2025-05-09T17:35:17.967Z"
+    },
+    {
+        "id": "1746812117967-s1g13pc5o",
+        "filename": "instrumental-g-minor.wav",
+        "originalName": "instrumental-G-minor.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\instrumental-g-minor.wav",
+        "tags": [
+            "instrumental"
+        ],
+        "key": "G minor",
+        "uploadDate": "2025-05-09T17:35:17.967Z"
+    },
+    {
+        "id": "1746812117967-x7qe9wens",
+        "filename": "1746812117953.wav",
+        "originalName": "STCR2_DD3_140_FX_Loop_Ambience_Angelic_C#m.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746812117953.wav",
+        "tags": [
+            "drums",
+            "fx"
+        ],
+        "key": "D# minor",
+        "uploadDate": "2025-05-09T17:35:17.967Z"
+    },
+    {
+        "id": "1746812117967-jauesdiyh",
+        "filename": "1746812117957.wav",
+        "originalName": "X10_VSL_140_vocal_thug_Fm.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746812117957.wav",
+        "tags": [
+            "vocals",
+            "fx"
+        ],
+        "key": "G minor",
+        "uploadDate": "2025-05-09T17:35:17.967Z"
+    },
+    {
+        "id": "1746812117967-3w8g4kpz1",
+        "filename": "1746812117962.wav",
+        "originalName": "MTVR2_146_vocal_wet_keep_it_real_C#m.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746812117962.wav",
+        "tags": [
+            "fx",
+            "vocals"
+        ],
+        "key": "D minor",
+        "uploadDate": "2025-05-09T17:35:17.967Z"
+    },
+    {
+        "id": "1746812117967-hahefcwb9",
+        "filename": "1746812117965.wav",
+        "originalName": "SH_SDH_KIT04_Reverse_Crash.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746812117965.wav",
+        "tags": [
+            "fx",
+            "drums"
+        ],
+        "key": "A major",
+        "uploadDate": "2025-05-09T17:35:17.967Z"
+    },
+    {
+        "id": "1746812372982-1ndphyi4n",
+        "filename": "1746812372977.wav",
+        "originalName": "Kick2a.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746812372977.wav",
+        "tags": [],
+        "key": "",
+        "uploadDate": "2025-05-09T17:39:32.982Z"
+    },
+    {
+        "id": "1746812389785-13y193w8t",
+        "filename": "1746812389775.wav",
+        "originalName": "KSHMR_Indian_Freestyle_Vocal_04_D#m.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746812389775.wav",
+        "tags": [
+            "instrumental",
+            "vocals"
+        ],
+        "key": "B major",
+        "uploadDate": "2025-05-09T17:39:49.785Z"
+    },
+    {
+        "id": "1746812807964-w0752hly2",
+        "filename": "drums-f-minor.wav",
+        "originalName": "drums-F-minor.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\drums-f-minor.wav",
+        "tags": [
+            "drums"
+        ],
+        "key": "F minor",
+        "uploadDate": "2025-05-09T17:46:47.964Z",
+        "aiAnalyzed": true,
+        "detectedTags": [
+            "drums"
+        ],
+        "detectedKey": "F minor"
+    },
+    {
+        "id": "1746813185108-ces7xwa2h",
+        "filename": "1746813184960.wav",
+        "originalName": "Kick2a.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746813184960.wav",
+        "tags": [
+            "drums",
+            "instrumental"
+        ],
+        "key": "D# major",
+        "uploadDate": "2025-05-09T17:53:05.108Z",
+        "aiAnalyzed": true,
+        "detectedTags": [
+            "drums",
+            "instrumental"
+        ],
+        "detectedKey": "D# major"
+    },
+    {
+        "id": "1746813195267-19fjs1aa8",
+        "filename": "1746813195177.wav",
+        "originalName": "SH_SDH_KIT04_Reverse_Crash.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746813195177.wav",
+        "tags": [
+            "drums",
+            "fx",
+            "instrumental"
+        ],
+        "key": "D# minor",
+        "uploadDate": "2025-05-09T17:53:15.267Z",
+        "aiAnalyzed": true,
+        "detectedTags": [
+            "drums",
+            "fx",
+            "instrumental"
+        ],
+        "detectedKey": "D# minor"
+    },
+    {
+        "id": "1746813212704-v3r7yx8tb",
+        "filename": "1746813212611.wav",
+        "originalName": "papier.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746813212611.wav",
+        "tags": [
+            "instrumental"
+        ],
+        "key": "C minor",
+        "uploadDate": "2025-05-09T17:53:32.704Z",
+        "aiAnalyzed": true,
+        "detectedTags": [
+            "instrumental"
+        ],
+        "detectedKey": "C minor"
+    },
+    {
+        "id": "1746813534114-tnjmwmfik",
+        "filename": "1746813534021.wav",
+        "originalName": "release whats in me.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746813534021.wav",
+        "tags": [
+            "drums",
+            "instrumental",
+            "strings"
+        ],
+        "key": "D major",
+        "uploadDate": "2025-05-09T17:58:54.114Z",
+        "aiAnalyzed": true,
+        "detectedTags": [
+            "drums",
+            "instrumental",
+            "strings"
+        ],
+        "detectedKey": "D major"
+    },
+    {
+        "id": "1746813581356-z19qtws2g",
+        "filename": "1746813581253.wav",
+        "originalName": "dit zou a moete zijn.wav",
+        "path": "d:\\files\\clipTager\\backend\\uploads\\1746813581253.wav",
+        "tags": [
+            "instrumental"
+        ],
+        "key": "A major",
+        "uploadDate": "2025-05-09T17:59:41.356Z",
+        "aiAnalyzed": true,
+        "detectedTags": [
+            "instrumental"
+        ],
+        "detectedKey": "A major"
+    }
+]

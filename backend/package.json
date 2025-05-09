@@ -1,0 +1,32 @@
+{
+  "name": "clip-tagger-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "music",
+    "audio",
+    "tagging",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Backend server for ClipTagger application",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2",
+    "multer": "^1.4.5-lts.2",
+    "music-metadata": "^11.2.1",
+    "node-fetch": "^2.7.0",
+    "openai": "^4.98.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

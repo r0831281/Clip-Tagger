@@ -1,0 +1,84 @@
+[
+    {
+        "id": "1746814400629-vcnbq9eq8",
+        "filename": "1746814400617.wav",
+        "originalName": "release whats in me.wav",
+        "path": "/usr/src/app/uploads/1746814400617.wav",
+        "tags": [
+            "drums"
+        ],
+        "key": "",
+        "uploadDate": "2025-05-09T18:13:20.629Z",
+        "aiAnalyzed": true,
+        "detectedTags": [
+            "drums"
+        ],
+        "detectedKey": ""
+    },
+    {
+        "id": "1746814411190-wlxeokxjz",
+        "filename": "1746814411167.wav",
+        "originalName": "papier.wav",
+        "path": "/usr/src/app/uploads/1746814411167.wav",
+        "tags": [
+            "instrumental"
+        ],
+        "key": "",
+        "uploadDate": "2025-05-09T18:13:31.190Z",
+        "aiAnalyzed": true,
+        "detectedTags": [
+            "instrumental"
+        ],
+        "detectedKey": ""
+    },
+    {
+        "id": "1746814411192-slwzzqd00",
+        "filename": "1746814411181.wav",
+        "originalName": "release whats in me.wav",
+        "path": "/usr/src/app/uploads/1746814411181.wav",
+        "tags": [
+            "drums",
+            "woodwinds"
+        ],
+        "key": "F# major",
+        "uploadDate": "2025-05-09T18:13:31.192Z",
+        "aiAnalyzed": true,
+        "detectedTags": [
+            "drums",
+            "woodwinds"
+        ],
+        "detectedKey": "F# major"
+    },
+    {
+        "id": "1746814411194-ylq613o5o",
+        "filename": "1746814411186.wav",
+        "originalName": "Kick2a.wav",
+        "path": "/usr/src/app/uploads/1746814411186.wav",
+        "tags": [
+            "drums"
+        ],
+        "key": "",
+        "uploadDate": "2025-05-09T18:13:31.194Z",
+        "aiAnalyzed": true,
+        "detectedTags": [
+            "drums"
+        ],
+        "detectedKey": ""
+    },
+    {
+        "id": "1746814459710-wyt6i2ad3",
+        "filename": "1746814459706.wav",
+        "originalName": "release whats in me.wav",
+        "path": "/usr/src/app/uploads/1746814459706.wav",
+        "tags": [
+            "drums"
+        ],
+        "key": "",
+        "uploadDate": "2025-05-09T18:14:19.710Z",
+        "aiAnalyzed": true,
+        "detectedTags": [
+            "drums"
+        ],
+        "detectedKey": ""
+    }
+]
