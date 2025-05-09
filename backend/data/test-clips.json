@@ -1,102 +1,92 @@
 [
     {
-        "id": "1746814400629-vcnbq9eq8",
-        "filename": "1746814400617.wav",
-        "originalName": "release whats in me.wav",
-        "path": "/usr/src/app/uploads/1746814400617.wav",
-        "tags": [
-            "drums"
-        ],
-        "key": "",
-        "uploadDate": "2025-05-09T18:13:20.629Z",
-        "aiAnalyzed": true,
-        "detectedTags": [
-            "drums"
-        ],
-        "detectedKey": ""
-    },
-    {
-        "id": "1746814411190-wlxeokxjz",
-        "filename": "1746814411167.wav",
-        "originalName": "papier.wav",
-        "path": "/usr/src/app/uploads/1746814411167.wav",
-        "tags": [
-            "instrumental"
-        ],
-        "key": "",
-        "uploadDate": "2025-05-09T18:13:31.190Z",
-        "aiAnalyzed": true,
-        "detectedTags": [
-            "instrumental"
-        ],
-        "detectedKey": ""
-    },
-    {
-        "id": "1746814411192-slwzzqd00",
-        "filename": "1746814411181.wav",
-        "originalName": "release whats in me.wav",
-        "path": "/usr/src/app/uploads/1746814411181.wav",
+        "id": "1746814830963-oepsd9nt4",
+        "filename": "1746814830912.wav",
+        "originalName": "STCR2_DD3_140_FX_Loop_Ambience_Angelic_C#m.wav",
+        "path": "/usr/src/app/uploads/1746814830912.wav",
         "tags": [
             "drums",
-            "woodwinds"
+            "fx",
+            "electronic"
         ],
-        "key": "F# major",
-        "uploadDate": "2025-05-09T18:13:31.192Z",
+        "key": "G minor",
+        "uploadDate": "2025-05-09T18:20:30.963Z",
         "aiAnalyzed": true,
         "detectedTags": [
             "drums",
-            "woodwinds"
+            "fx",
+            "electronic"
         ],
-        "detectedKey": "F# major"
+        "detectedKey": "G minor"
     },
     {
-        "id": "1746814411194-ylq613o5o",
-        "filename": "1746814411186.wav",
-        "originalName": "Kick2a.wav",
-        "path": "/usr/src/app/uploads/1746814411186.wav",
+        "id": "1746814830965-sdyjv9tp9",
+        "filename": "1746814830927.wav",
+        "originalName": "X10_VSL_140_vocal_thug_Fm.wav",
+        "path": "/usr/src/app/uploads/1746814830927.wav",
         "tags": [
-            "drums"
+            "vocals",
+            "acoustic"
         ],
         "key": "",
-        "uploadDate": "2025-05-09T18:13:31.194Z",
+        "uploadDate": "2025-05-09T18:20:30.965Z",
         "aiAnalyzed": true,
         "detectedTags": [
-            "drums"
+            "vocals",
+            "acoustic"
         ],
         "detectedKey": ""
     },
     {
-        "id": "1746814459710-wyt6i2ad3",
-        "filename": "1746814459706.wav",
-        "originalName": "release whats in me.wav",
-        "path": "/usr/src/app/uploads/1746814459706.wav",
+        "id": "1746814830967-050zsx99h",
+        "filename": "1746814830939.wav",
+        "originalName": "MTVR2_146_vocal_wet_keep_it_real_C#m.wav",
+        "path": "/usr/src/app/uploads/1746814830939.wav",
         "tags": [
-            "drums"
+            "vocals",
+            "brass"
         ],
-        "key": "",
-        "uploadDate": "2025-05-09T18:14:19.710Z",
+        "key": "B minor",
+        "uploadDate": "2025-05-09T18:20:30.967Z",
         "aiAnalyzed": true,
         "detectedTags": [
-            "drums"
+            "vocals",
+            "brass"
+        ],
+        "detectedKey": "B minor"
+    },
+    {
+        "id": "1746814830968-e84rhc1tc",
+        "filename": "1746814830950.wav",
+        "originalName": "SH_SDH_KIT04_Reverse_Crash.wav",
+        "path": "/usr/src/app/uploads/1746814830950.wav",
+        "tags": [
+            "drums",
+            "fx"
+        ],
+        "key": "",
+        "uploadDate": "2025-05-09T18:20:30.968Z",
+        "aiAnalyzed": true,
+        "detectedTags": [
+            "drums",
+            "fx"
         ],
         "detectedKey": ""
     },
     {
-        "id": "1746814469045-cd3zyirzk",
-        "filename": "1746814469003.wav",
-        "originalName": "dit zou a moete zijn.wav",
-        "path": "/usr/src/app/uploads/1746814469003.wav",
+        "id": "1746815302253-pge7jjbc5",
+        "filename": "1746815302234.wav",
+        "originalName": "MTVR2_146_vocal_wet_keep_it_real_C#m.wav",
+        "path": "/usr/src/app/uploads/1746815302234.wav",
         "tags": [
-            "instrumental",
             "vocals"
         ],
-        "key": "A major",
-        "uploadDate": "2025-05-09T18:14:29.045Z",
+        "key": "C# minor",
+        "uploadDate": "2025-05-09T18:28:22.253Z",
         "aiAnalyzed": true,
         "detectedTags": [
-            "instrumental",
             "vocals"
         ],
-        "detectedKey": "A major"
+        "detectedKey": "C# minor"
     }
 ]

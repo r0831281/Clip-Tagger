@@ -169,11 +169,12 @@ async function analyzeAudioWithAI(filePath, originalName) {
         {
           role: "user",
           content: `Based on this audio clip description: "${response}"
-          
-          Additional context:
+            Additional context:
           - Original filename: ${originalName}
           - Duration: ${metadata.duration ? metadata.duration.toFixed(2) + ' seconds' : 'unknown'}
           - Audio metadata analysis: ${JSON.stringify(metadata)}
+          
+          Important note: If the filename contains "C#" (like in "MTVR2_146_vocal_wet_keep_it_real_C#.wav"), the key should be C# major unless explicitly specified as minor.
           
           Provide musical analysis formatted as JSON with these fields:
           - key (string): The musical key (if detectable, otherwise empty string)
@@ -346,6 +347,35 @@ function detectTagsFromFilename(filename) {
  */
 function detectKeyFromFilename(filename) {
   const lowerFilename = filename.toLowerCase();
+  console.log(`Detecting key from filename: ${filename}`);
+  
+  // Special case for filenames with C# that might be getting misinterpreted
+  if (filename.includes('C#')) {
+    console.log('Found C# in filename, detecting if it\'s major or minor');
+    // Check if it specifies minor
+    if (lowerFilename.includes('min') || lowerFilename.includes(' m ') || lowerFilename.endsWith('m.wav') || lowerFilename.includes('m_')) {
+      console.log('Detected as C# minor');
+      return 'C# minor';
+    } else {
+      // Default to major if not specified
+      console.log('Detected as C# major');
+      return 'C# major';
+    }
+  }
+  
+  // Handle other sharp note patterns more carefully
+  const sharpNotePattern = /\b([A-G])#\b/i;
+  const sharpMatch = filename.match(sharpNotePattern);
+  if (sharpMatch) {
+    const note = sharpMatch[1].toUpperCase();
+    // Check if it specifies minor
+    if (lowerFilename.includes('min') || lowerFilename.includes(' m ') || lowerFilename.endsWith('m.wav') || lowerFilename.includes('m_')) {
+      return `${note}# minor`;
+    } else {
+      // Default to major if not specified
+      return `${note}# major`;
+    }
+  }
   
   // Regular expression to find key patterns in the filename
   // e.g. "C#m", "A minor", "F Major", "Gmin", "D#"
@@ -372,6 +402,22 @@ function detectKeyFromFilename(filename) {
  * Convert various key formats to a standardized format
  */
 function standardizeKey(keyText) {
+  console.log(`Standardizing key from: "${keyText}"`);
+  
+  // Special case for C# which might be getting mangled
+  if (keyText.includes('C#') || keyText.includes('c#')) {
+    // Check if it's explicitly marked as minor
+    if (keyText.toLowerCase().includes('min') || 
+        keyText.toLowerCase().includes(' m') || 
+        keyText.toLowerCase().endsWith('m')) {
+      console.log('Standardized to C# minor');
+      return 'C# minor';
+    } else {
+      console.log('Standardized to C# major');
+      return 'C# major';
+    }
+  }
+  
   keyText = keyText.toLowerCase();
   
   // Extract the root note
@@ -391,7 +437,9 @@ function standardizeKey(keyText) {
   }
   
   // Format the key properly
-  return `${root} ${isMajor ? 'major' : 'minor'}`;
+  const result = `${root} ${isMajor ? 'major' : 'minor'}`;
+  console.log(`Standardized to ${result}`);
+  return result;
 }
 
 /**
